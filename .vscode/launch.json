@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations" : [
+        {
+            "name": "webcam_roi",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/webcam_roi.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
