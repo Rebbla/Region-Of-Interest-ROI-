@@ -36,18 +36,7 @@ Konfigurasi
 
 Semua pengaturan ada di config.yaml:
 
-yaml
-camera: 0                       # Index webcam (0 = kamera default)
-model: "yolo26n.pt"             # Path ke file model YOLO
-conf: 0.5                       # Threshold confidence (0.0 - 1.0)
-imgsz: 640                      # Ukuran input gambar
-
-# Titik poligon dalam koordinat relatif (0.0 - 1.0) terhadap lebar/tinggi frame
-roi_active: [[0.25, 0.25], [0.75, 0.25], [0.75, 0.80], [0.25, 0.80]]
-roi_guard:  [[0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0]]
-
-roi_show: true
-save_output: true
+![Konfigurasi](Screenshot%20from%202026-10-01%2010-09-54.png)
 
 Koordinat ROI memakai nilai relatif, jadi tetap sesuai di resolusi webcam berapa pun. Titik poligon bisa diubah atau ditambah untuk membuat bentuk area yang berbeda.
 
